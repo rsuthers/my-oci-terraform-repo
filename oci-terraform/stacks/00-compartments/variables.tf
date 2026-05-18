@@ -4,9 +4,8 @@ variable "tenancy_ocid" {
 }
 
 variable "region" {
-  description = "OCI region for Resource Manager execution, for example uk-london-1."
+  description = "OCI region"
   type        = string
-  default     = "uk-london-1"
 }
 
 variable "enable_compartment_delete" {
