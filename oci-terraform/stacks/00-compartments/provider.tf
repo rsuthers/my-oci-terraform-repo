@@ -1,4 +1,4 @@
 provider "oci" {
   auth   = "ResourcePrincipal"
-  region = var.region
+  region = uk-london-1
 }
