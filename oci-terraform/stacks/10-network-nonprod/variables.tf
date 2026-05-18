@@ -1,7 +1,6 @@
 variable "region" {
-  description = "OCI region for Resource Manager execution."
+  description = "OCI region"
   type        = string
-  default     = "uk-london-1"
 }
 
 variable "nonprod_network_compartment_ocid" {
